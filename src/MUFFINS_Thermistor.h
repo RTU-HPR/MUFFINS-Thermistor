@@ -1,3 +1,4 @@
+#pragma once
 #include <Arduino.h>
 #include <MUFFINS_Component_Base.h>
 
