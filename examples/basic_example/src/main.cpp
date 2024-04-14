@@ -20,6 +20,9 @@ void setup()
     delay(1000);
   }
 
+  // Set the ADC resolution to 12 bits
+  analogReadResolution(12);
+
   thermistor.begin(thermistor_config);
 }
 
